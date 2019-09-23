@@ -1,7 +1,6 @@
 "use strict";
 const logic = require("../services/payment.services")();
 module.exports = () => {
-
     async function newPayment(req, res, next) {
         try {
             const { body } = req;
@@ -24,6 +23,6 @@ module.exports = () => {
 
     return {
         newPayment,
-        checkPayment,
+        checkPayment
     };
 };

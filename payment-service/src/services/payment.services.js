@@ -28,7 +28,6 @@ module.exports = () => {
         }
     }
 
-
     async function checkPayment({ accountNo, paymentTransRefNo }) {
         try {
             const paymentDetails = await db.findOne("payment", { accountNo, paymentTransRefNo });
@@ -42,6 +41,6 @@ module.exports = () => {
     }
     return {
         newPayment,
-        checkPayment,
+        checkPayment
     };
 };

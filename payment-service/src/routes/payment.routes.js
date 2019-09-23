@@ -7,7 +7,6 @@ module.exports = router => {
     * @property {string} accountNo
     * @property {string} paymentTransRefNo
     * @property {object} transactionDetails  - amount, bank deetail
-    * 
     */
 
     /**

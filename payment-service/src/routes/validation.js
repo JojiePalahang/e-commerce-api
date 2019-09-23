@@ -12,7 +12,7 @@ module.exports = {
         CheckPayment: {
             query: {
                 accountNo: Joi.string().required(),
-                paymentTransRefNo: Joi.string().required(),
+                paymentTransRefNo: Joi.string().required()
             }
         }
     }
