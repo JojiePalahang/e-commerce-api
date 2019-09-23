@@ -7,13 +7,17 @@
   - Few functionalities Create Order/Cancel Order/Check Status
 ### Technical Spec
   -  You can check the API Swagger for support ```localhost:3000/api-docs```
-  -  You can E2E testing script as well.
+  -  You can E2E testing script as well - TODO.
+### How to run Locally
+  - Please update with the correct connection string for mongo db under ```config/index.js```  
 
 ## Payment API 
   - Few functionalities Create Order/Cancel Order/Check Status
 ### Technical Spec
   -  You can check the API Swagger for support ```localhost:3001/api-docs```
-  -  You can E2E testing script as well.
+  -  You can E2E testing script as well -- TODO.
+### How to run Locally
+  - Please update with the correct connection string for mongo db under ```config/index.js```   
 
 ## Source Code 
   - I know for SAAS 12 Factor Practices should be separate repository, since its POC I put same as of the moment.

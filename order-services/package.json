@@ -1,0 +1,39 @@
+{
+  "name": "order-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "lint": "node_modules/.bin/eslint src/**/*.js",
+    "test": "TODO : Mocha and Chai"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "celebrate": "^10.0.1",
+    "express": "^4.17.1",
+    "express-swagger-generator": "^1.1.15",
+    "mongodb": "^3.3.2",
+    "uuid": "^3.3.3",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chakram": "^1.5.0",
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.0",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
