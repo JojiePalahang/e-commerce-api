@@ -21,10 +21,10 @@ module.exports = () => {
     async function createOrder({ accountNo }, { totalAmount, orderList }) {
         try {
             const orderRefNo = uuid();
-            const paymentRefNo = uuid();
+            const paymentTransRefNo = uuid();
             const orderDetails = {
                 orderRefNo,
-                paymentRefNo,
+                paymentTransRefNo,
                 accountNo,
                 totalAmount,
                 orderList,
